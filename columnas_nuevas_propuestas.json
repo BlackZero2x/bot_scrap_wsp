@@ -1,0 +1,1098 @@
+[
+  {
+    "key_json": "1014",
+    "columna": "toa_uso_cable_coaxial_en_acometida_1014",
+    "label": "Uso cable coaxial en acometida",
+    "fuente": "FormData",
+    "tipo_sql": "NVARCHAR(5)",
+    "razon_tipo": "valores tipo Y/N/SI/NO con múltiples observaciones consistentes"
+  },
+  {
+    "key_json": "1057",
+    "columna": "toa_id_de_acceso_voz_para_la_activacion_1057",
+    "label": "ID de Acceso Voz para la Activación",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(100)",
+    "razon_tipo": "texto corto (máx 10 chars, 1 obs)"
+  },
+  {
+    "key_json": "1060",
+    "columna": "toa_id_de_acceso_baf_para_la_activacion_1060",
+    "label": "ID de Acceso BAF para la Activación",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(50)",
+    "razon_tipo": "numérico como texto (máx 10 chars, 27 obs)"
+  },
+  {
+    "key_json": "1067",
+    "columna": "toa_id_de_acceso_tv_para_la_activacion_1067",
+    "label": "ID de Acceso TV para la Activación",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(50)",
+    "razon_tipo": "numérico como texto (máx 10 chars, 11 obs)"
+  },
+  {
+    "key_json": "1227",
+    "columna": "toa_desea_la_instalacion_de_repetidor_1227",
+    "label": "Desea la instalación de repetidor ?",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "1232",
+    "columna": "toa_numero_de_puntos_adicionales_cableado_1232",
+    "label": "Número de Puntos Adicionales(Cableado)",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "137",
+    "columna": "toa_orden_de_servicio_137",
+    "label": "Orden de Servicio",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(50)",
+    "razon_tipo": "numérico como texto (máx 1 chars, 5 obs)"
+  },
+  {
+    "key_json": "1600",
+    "columna": "toa_puntos_adicionales_cableado_1600",
+    "label": "Puntos Adicionales(Cableado)",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "1601",
+    "columna": "toa_cableado_01_mts_1601",
+    "label": "Cableado 01 MTS",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "1602",
+    "columna": "toa_cableado_02_mts_1602",
+    "label": "Cableado 02 MTS",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "1603",
+    "columna": "toa_cableado_03_mts_1603",
+    "label": "Cableado 03 MTS",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "1604",
+    "columna": "toa_cableado_04_mts_1604",
+    "label": "Cableado 04 MTS",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "1605",
+    "columna": "toa_cableado_05_mts_1605",
+    "label": "Cableado 05 MTS",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "1606",
+    "columna": "toa_cableado_06_mts_1606",
+    "label": "Cableado 06 MTS",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "1607",
+    "columna": "toa_cableado_07_mts_1607",
+    "label": "Cableado 07 MTS",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "1628",
+    "columna": "toa_estado_de_soporte_de_planta_101_1628",
+    "label": "Estado de Soporte de Planta 101",
+    "fuente": "FormData",
+    "tipo_sql": "NVARCHAR(100)",
+    "razon_tipo": "texto corto (máx 9 chars, 5 obs)"
+  },
+  {
+    "key_json": "1631",
+    "columna": "toa_numero_de_intentos_del_soporte_de_101_1631",
+    "label": "Número de intentos del soporte de 101",
+    "fuente": "FormData",
+    "tipo_sql": "NVARCHAR(100)",
+    "razon_tipo": "texto corto (máx 1 chars, 1 obs)"
+  },
+  {
+    "key_json": "1633",
+    "columna": "toa_observacion_soporte_de_planta_101_1633",
+    "label": "Observación Soporte de Planta 101",
+    "fuente": "FormData",
+    "tipo_sql": "NVARCHAR(100)",
+    "razon_tipo": "texto corto (máx 23 chars, 1 obs)"
+  },
+  {
+    "key_json": "1658",
+    "columna": "toa_foto_evidencia_02_1658",
+    "label": "Foto Evidencia 02",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "1661",
+    "columna": "toa_sub_motivo_de_soporte_de_planta_101_1661",
+    "label": "Sub Motivo de Soporte de Planta 101",
+    "fuente": "FormData",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "1684",
+    "columna": "toa_foto_realizar_zoom_a_la_firma_y_dni_de_la_boleta_firmada_por_el_cliente_1684",
+    "label": "Foto realizar Zoom a la Firma y DNI de la boleta firmada por el Cliente",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "1686",
+    "columna": "toa_indicador_form_conformidad_1686",
+    "label": "Indicador Form. Conformidad",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(5)",
+    "razon_tipo": "valores tipo Y/N/SI/NO con múltiples observaciones consistentes"
+  },
+  {
+    "key_json": "1962",
+    "columna": "toa_indicador_recurso_linea_de_rescate_1962",
+    "label": "Indicador Recurso Línea de Rescate",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "1985",
+    "columna": "toa_foto_de_roseta_sin_tapa_1985",
+    "label": "Foto de Roseta (sin tapa)",
+    "fuente": "FormData + formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "texto medio (máx 152 chars, 7 obs)"
+  },
+  {
+    "key_json": "1986",
+    "columna": "toa_foto_de_triplexor_1986",
+    "label": "Foto de Triplexor",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "texto medio (máx 132 chars, 1 obs)"
+  },
+  {
+    "key_json": "1987",
+    "columna": "toa_foto_de_hgu_roseta_libre_de_obstaculos_1987",
+    "label": "Foto de HGU + Roseta (libre de obstaculos)",
+    "fuente": "FormData + formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "texto medio (máx 151 chars, 7 obs)"
+  },
+  {
+    "key_json": "1988",
+    "columna": "toa_foto_de_1er_splitter_filtro_retorno_1988",
+    "label": "Foto de 1er Splitter + Filtro retorno",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "1989",
+    "columna": "toa_foto_de_cablemodem_libre_de_obstaculos_1989",
+    "label": "Foto de CABLEMODEM (libre de obstáculos)",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "1990",
+    "columna": "toa_foto_de_hgu_triplexor_libre_de_obstaculos_1990",
+    "label": "Foto de HGU + Triplexor (libre de obstáculos)",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "texto medio (máx 132 chars, 1 obs)"
+  },
+  {
+    "key_json": "204",
+    "columna": "toa_nombre_persona_que_recibe_204",
+    "label": "Nombre Persona que Recibe",
+    "fuente": "FormData + formulario_directo",
+    "tipo_sql": "NVARCHAR(100)",
+    "razon_tipo": "texto corto (máx 33 chars, 23 obs)"
+  },
+  {
+    "key_json": "205",
+    "columna": "toa_dni_persona_que_recibe_205",
+    "label": "DNI Persona que Recibe",
+    "fuente": "FormData + formulario_directo",
+    "tipo_sql": "NVARCHAR(50)",
+    "razon_tipo": "numérico como texto (máx 8 chars, 21 obs)"
+  },
+  {
+    "key_json": "214",
+    "columna": "toa_motivo_de_suspension_214",
+    "label": "Motivo de suspensión",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "225",
+    "columna": "toa_boleta_de_reparacion_225",
+    "label": "Boleta de Reparación",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "234",
+    "columna": "toa_codigo_de_requerimiento_234",
+    "label": "Código de Requerimiento",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "2372",
+    "columna": "toa_gestion_2372",
+    "label": "Gestion",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "238",
+    "columna": "toa_fotografia_boleta_de_cierre_238",
+    "label": "Fotografía Boleta de Cierre",
+    "fuente": "FormData + formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "texto medio (máx 151 chars, 8 obs)"
+  },
+  {
+    "key_json": "239",
+    "columna": "toa_fotofragia_adicional_1_239",
+    "label": "Fotofragía adicional 1",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "240",
+    "columna": "toa_fotografia_adicional_2_240",
+    "label": "Fotografía adicional 2",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "241",
+    "columna": "toa_fotografia_adicional_3_241",
+    "label": "Fotografía adicional 3",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "242",
+    "columna": "toa_fotografia_adicional_4_242",
+    "label": "Fotografía adicional 4",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "243",
+    "columna": "toa_fotografia_adicional_5_243",
+    "label": "Fotografía adicional 5",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "244",
+    "columna": "toa_fotografia_adicional_6_244",
+    "label": "Fotografía adicional 6",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "245",
+    "columna": "toa_fotografia_adicional_7_245",
+    "label": "Fotografía adicional 7",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "247",
+    "columna": "toa_motivo_liquidacion_instalacion_247",
+    "label": "Motivo liquidación instalación",
+    "fuente": "FormData",
+    "tipo_sql": "NVARCHAR(100)",
+    "razon_tipo": "texto corto (máx 13 chars, 21 obs)"
+  },
+  {
+    "key_json": "2482",
+    "columna": "toa_telefono_contacto_01_2482",
+    "label": "Teléfono Contacto 01",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "2483",
+    "columna": "toa_conexion_deco_01_2483",
+    "label": "Conexion Deco 01",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "2484",
+    "columna": "toa_conexion_deco_02_2484",
+    "label": "Conexion Deco 02",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "2485",
+    "columna": "toa_conexion_deco_03_2485",
+    "label": "Conexion Deco 03",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "2486",
+    "columna": "toa_conexion_deco_04_2486",
+    "label": "Conexion Deco 04",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "2488",
+    "columna": "toa_foto_de_equipo_modem_2488",
+    "label": "Foto de equipo modem",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "249",
+    "columna": "toa_motivo_quiebre_249",
+    "label": "Motivo Quiebre",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "250",
+    "columna": "toa_causa_completado_reparacion_y_preventivo_adsl_250",
+    "label": "Causa completado reparación y preventivo ADSL",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "2507",
+    "columna": "toa_escenarios_2507",
+    "label": "Escenarios",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "2508",
+    "columna": "toa_direccion_real_2508",
+    "label": "Dirección real",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "2509",
+    "columna": "toa_direccion_errada_incompleta_2509",
+    "label": "Direccion errada\\/incompleta",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "251",
+    "columna": "toa_codigo_completado_reparacion_y_preventivo_adsl_251",
+    "label": "Código completado reparación y preventivo ADSL",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "252",
+    "columna": "toa_codigo_completado_reparacion_y_preventivo_cable_252",
+    "label": "Código completado reparación y preventivo Cable",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "254",
+    "columna": "toa_codigo_completado_reparacion_y_preventivo_stb_254",
+    "label": "Código completado reparación y preventivo STB",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "256",
+    "columna": "toa_causa_completado_reparacion_y_preventivo_stb_256",
+    "label": "Causa completado reparación y preventivo STB",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "257",
+    "columna": "toa_causa_completado_reparacion_y_preventivo_cable_257",
+    "label": "Causa completado reparación y preventivo Cable",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "2584",
+    "columna": "toa_existe_cobertura_de_fibra_en_la_zona_2584",
+    "label": "¿Existe cobertura de Fibra en la zona?",
+    "fuente": "FormData",
+    "tipo_sql": "NVARCHAR(5)",
+    "razon_tipo": "valores tipo Y/N/SI/NO con múltiples observaciones consistentes"
+  },
+  {
+    "key_json": "2585",
+    "columna": "toa_tipo_de_vivienda_2585",
+    "label": "Tipo de Vivienda",
+    "fuente": "FormData",
+    "tipo_sql": "NVARCHAR(100)",
+    "razon_tipo": "texto corto (máx 4 chars, 12 obs)"
+  },
+  {
+    "key_json": "2586",
+    "columna": "toa_actualizacion_de_direccion_2586",
+    "label": "Actualización de Dirección",
+    "fuente": "FormData",
+    "tipo_sql": "NVARCHAR(5)",
+    "razon_tipo": "valores tipo Y/N/SI/NO con múltiples observaciones consistentes"
+  },
+  {
+    "key_json": "2588",
+    "columna": "toa_numeracion_2588",
+    "label": "Numeración",
+    "fuente": "FormData",
+    "tipo_sql": "NVARCHAR(100)",
+    "razon_tipo": "texto corto (máx 8 chars, 12 obs)"
+  },
+  {
+    "key_json": "2609",
+    "columna": "toa_indicador_form_evalua_migra_2609",
+    "label": "Indicador Form. Evalua Migra",
+    "fuente": "FormData",
+    "tipo_sql": "NVARCHAR(5)",
+    "razon_tipo": "valores tipo Y/N/SI/NO con múltiples observaciones consistentes"
+  },
+  {
+    "key_json": "2610",
+    "columna": "toa_cliente_desea_migrar_2610",
+    "label": "Cliente desea Migrar",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "2611",
+    "columna": "toa_datos_de_contacto_1_2611",
+    "label": "Datos de Contacto 1",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "2612",
+    "columna": "toa_datos_de_contacto_2_2612",
+    "label": "Datos de Contacto 2",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "2613",
+    "columna": "toa_recomendacion_de_agenda_2613",
+    "label": "Recomendación de Agenda",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "2614",
+    "columna": "toa_motivo_porque_no_dese_migrar_2614",
+    "label": "Motivo porque no dese migrar",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "2615",
+    "columna": "toa_cliente_referidos_para_migracion_2615",
+    "label": "Cliente referidos para migración",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "2616",
+    "columna": "toa_observacion_cliente_desea_migrar_2616",
+    "label": "Observacion cliente desea Migrar",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "2749",
+    "columna": "toa_foto_de_1er_splitter_filtro_retorno_carga_f_2749",
+    "label": "Foto de 1er Splitter + Filtro retorno + Carga F",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "2750",
+    "columna": "toa_foto_evidencia_2750",
+    "label": "Foto evidencia",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "2796",
+    "columna": "toa_foto_de_domicilio_del_cliente_2796",
+    "label": "Foto de domicilio del cliente",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "2852",
+    "columna": "toa_foto_de_fachada_domicilio_cliente_2852",
+    "label": "Foto de fachada domicilio cliente",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "289",
+    "columna": "toa_area_no_realizado_289",
+    "label": "Área no realizado",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "297",
+    "columna": "toa_captura_de_coordenadas_297",
+    "label": "Captura de Coordenadas",
+    "fuente": "FormData + formulario_directo",
+    "tipo_sql": "NVARCHAR(100)",
+    "razon_tipo": "texto corto (máx 27 chars, 3 obs)"
+  },
+  {
+    "key_json": "309",
+    "columna": "toa_codigo_de_peticion_309",
+    "label": "Código de Petición",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "368",
+    "columna": "toa_orden_trabajo_368",
+    "label": "Orden trabajo",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "372",
+    "columna": "toa_observaciones_en_toa_372",
+    "label": "Observaciones en TOA",
+    "fuente": "FormData + formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "texto medio (máx 142 chars, 27 obs)"
+  },
+  {
+    "key_json": "387",
+    "columna": "toa_ingresar_su_celular_387",
+    "label": "Ingresar su Celular",
+    "fuente": "FormData",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "3957",
+    "columna": "toa_medicion_cto_3957",
+    "label": "Medicion CTO",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "515",
+    "columna": "toa_observacion_cobre_515",
+    "label": "Observación Cobre",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "570",
+    "columna": "toa_telefono_de_contacto_570",
+    "label": "Teléfono de Contacto",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(50)",
+    "razon_tipo": "numérico como texto (máx 9 chars, 2 obs)"
+  },
+  {
+    "key_json": "601",
+    "columna": "toa_foto_casa_del_cliente_601",
+    "label": "Foto Casa del Cliente",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "747",
+    "columna": "toa_franja_postergacion_747",
+    "label": "Franja Postergación",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(100)",
+    "razon_tipo": "texto corto (máx 2 chars, 1 obs)"
+  },
+  {
+    "key_json": "758",
+    "columna": "toa_foto_numero_de_casa_del_cliente_758",
+    "label": "Foto Numero de Casa del Cliente",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "837",
+    "columna": "toa_flujo_tecnico_no_confiable_837",
+    "label": "Flujo Técnico No Confiable",
+    "fuente": "FormData + formulario_directo",
+    "tipo_sql": "NVARCHAR(50)",
+    "razon_tipo": "numérico como texto (máx 2 chars, 27 obs)"
+  },
+  {
+    "key_json": "849",
+    "columna": "toa_actualizacion_de_direccion_849",
+    "label": "Actualización de Dirección",
+    "fuente": "FormData",
+    "tipo_sql": "NVARCHAR(5)",
+    "razon_tipo": "valores tipo Y/N/SI/NO con múltiples observaciones consistentes"
+  },
+  {
+    "key_json": "850",
+    "columna": "toa_tipo_de_devolucion_reparacion_850",
+    "label": "Tipo de Devolución Reparación",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "851",
+    "columna": "toa_sub_motivo_de_suspension_851",
+    "label": "Sub Motivo de Suspensión",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "943",
+    "columna": "toa_inhabilitar_inventario_943",
+    "label": "Inhabilitar Inventario",
+    "fuente": "FormData + formulario_directo",
+    "tipo_sql": "NVARCHAR(5)",
+    "razon_tipo": "valores tipo Y/N/SI/NO con múltiples observaciones consistentes"
+  },
+  {
+    "key_json": "954",
+    "columna": "toa_foto_obligatoria_01_954",
+    "label": "Foto Obligatoria 01",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "texto medio (máx 147 chars, 5 obs)"
+  },
+  {
+    "key_json": "955",
+    "columna": "toa_foto_adicional_01_955",
+    "label": "Foto Adicional 01",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "A_COMPANY_BK",
+    "columna": "toa_a_company_bk",
+    "label": "Empresa del Bucket",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "A_IND_BRIGADA",
+    "columna": "toa_a_ind_brigada",
+    "label": "Indicador de Brigada",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "A_POST_DATE",
+    "columna": "toa_a_post_date",
+    "label": "Postponement Date:",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "A_REGISTRATION_DATE",
+    "columna": "toa_a_registration_date",
+    "label": "Fecha Registro de Actividad en TOA",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "XA_CANCEL_REASON",
+    "columna": "toa_xa_cancel_reason",
+    "label": "Código Cierre Cancelada",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "XA_CHANNEL_ORIGIN",
+    "columna": "toa_xa_channel_origin",
+    "label": "Canal de Origen",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "XA_CUSTOMER_DOCUMENTID",
+    "columna": "toa_xa_customer_documentid",
+    "label": "Documento de Identidad",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "XA_CUSTOMER_TYPE",
+    "columna": "toa_xa_customer_type",
+    "label": "• Tipo de cliente",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "XA_DISTRICT_NAME",
+    "columna": "toa_xa_district_name",
+    "label": "• Nombre Distrito",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "XA_DOCUMENTTYPE",
+    "columna": "toa_xa_documenttype",
+    "label": "Tipo de documento",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "XA_FECHA_AGENDA",
+    "columna": "toa_xa_fecha_agenda",
+    "label": "Fecha de agendamiento",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "XA_LINE_ID",
+    "columna": "toa_xa_line_id",
+    "label": "LineId",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "XA_PANGEA",
+    "columna": "toa_xa_pangea",
+    "label": "Orden Pangea",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "XA_PRIORITY",
+    "columna": "toa_xa_priority",
+    "label": "• Prioridad",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "XA_PRODUCT_OFFERS",
+    "columna": "toa_xa_product_offers",
+    "label": "Ofertas de Productos/Servicios",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "XA_SYSTEM_AGENDA",
+    "columna": "toa_xa_system_agenda",
+    "label": "Canal de agendamiento",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "XA_TIMESLOT_AGENDA",
+    "columna": "toa_xa_timeslot_agenda",
+    "label": "Franja de agendamiento",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "XA_USER_AGENDA",
+    "columna": "toa_xa_user_agenda",
+    "label": "Usuario de agendamiento",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "a_tsid",
+    "columna": "toa_a_tsid",
+    "label": "• Franja",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(50)",
+    "razon_tipo": "numérico como texto (máx 1 chars, 27 obs)"
+  },
+  {
+    "key_json": "aid",
+    "columna": "toa_aid",
+    "label": "Número OT",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(50)",
+    "razon_tipo": "numérico como texto (máx 8 chars, 27 obs)"
+  },
+  {
+    "key_json": "appt_number",
+    "columna": "toa_appt_number",
+    "label": "• Work Order",
+    "fuente": "DOM + FormData + formulario_directo",
+    "tipo_sql": "NVARCHAR(100)",
+    "razon_tipo": "texto corto (máx 13 chars, 27 obs)"
+  },
+  {
+    "key_json": "atime_of_booking",
+    "columna": "toa_atime_of_booking",
+    "label": "• Fecha Registro de Legados",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(50)",
+    "razon_tipo": "parece fecha/hora (texto, igual que el resto de la tabla)"
+  },
+  {
+    "key_json": "aworktype",
+    "columna": "toa_aworktype",
+    "label": "• Tipo de Actividad",
+    "fuente": "DOM + FormData + formulario_directo",
+    "tipo_sql": "NVARCHAR(50)",
+    "razon_tipo": "numérico como texto (máx 3 chars, 27 obs)"
+  },
+  {
+    "key_json": "caddress",
+    "columna": "toa_caddress",
+    "label": "• Dato Dirección",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "texto medio (máx 107 chars, 27 obs)"
+  },
+  {
+    "key_json": "ccity",
+    "columna": "toa_ccity",
+    "label": "• Nombre Ciudad",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(100)",
+    "razon_tipo": "texto corto (máx 29 chars, 27 obs)"
+  },
+  {
+    "key_json": "cname",
+    "columna": "toa_cname",
+    "label": "• Nombre Cliente",
+    "fuente": "DOM + formulario_directo",
+    "tipo_sql": "NVARCHAR(100)",
+    "razon_tipo": "texto corto (máx 41 chars, 27 obs)"
+  },
+  {
+    "key_json": "cstate",
+    "columna": "toa_cstate",
+    "label": "• Nombre Departamento",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(100)",
+    "razon_tipo": "texto corto (máx 11 chars, 27 obs)"
+  },
+  {
+    "key_json": "customer_number",
+    "columna": "toa_customer_number",
+    "label": "• Código de Cliente",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(50)",
+    "razon_tipo": "numérico como texto (máx 9 chars, 27 obs)"
+  },
+  {
+    "key_json": "date",
+    "columna": "toa_date",
+    "label": "• Fecha de Cita:",
+    "fuente": "DOM",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "end_time",
+    "columna": "toa_end_time",
+    "label": "Hora fin",
+    "fuente": "FormData + formulario_directo",
+    "tipo_sql": "NVARCHAR(100)",
+    "razon_tipo": "texto corto (máx 8 chars, 23 obs)"
+  },
+  {
+    "key_json": "step_1",
+    "columna": "toa_captura_de_coordenadas",
+    "label": "Captura de Coordenadas",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "step_2",
+    "columna": "toa_validar_coordenadas",
+    "label": "Validar Coordenadas",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "step_3",
+    "columna": "toa_pre_completado_averias",
+    "label": "Pre Completado Averías",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "step_4",
+    "columna": "toa_pre_suspension_actividad",
+    "label": "Pre Suspensión Actividad",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "step_5",
+    "columna": "toa_pre_devolucion_de_reparacion",
+    "label": "Pre Devolución de  Reparación",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "text#element_19",
+    "columna": "toa_tecnico_recuerde_que_debe_contactar_al_bo_de_su_contrata",
+    "label": "\"Técnico,  recuerde que debe contactar al bo de su Contrata\"",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "text#element_23",
+    "columna": "toa_por_favor_dejanos_tu_nro_celular_para_llamarte_antes_de_cerrar_tu_ticket_en_soditec",
+    "label": "\nPor favor déjanos tu nro. celular para llamarte antes de cerrar tu ticket en Soditec",
+    "fuente": "FormData",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "text#element_3",
+    "columna": "toa_desea_validar_sus_coordenadas",
+    "label": "¿Desea Validar sus Coordenadas ?",
+    "fuente": "FormData + formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "text#element_41",
+    "columna": "toa_iptv",
+    "label": "IPTV",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "text#element_7",
+    "columna": "toa_ingresar_direccion_completa_y_referencia",
+    "label": "Ingresar Dirección completa y referencia",
+    "fuente": "FormData",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "text#m9tenhgy_d62f1452",
+    "columna": "toa_en_la_foto_de_evidencia_poner_la_foto_de_parametros_tv",
+    "label": "En la foto de Evidencia poner la Foto de Parametros TV",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  },
+  {
+    "key_json": "text#m9tepzc6_881581db",
+    "columna": "toa_en_la_foto_de_evidencia_opcional_poner_la_foto_de_fachada_del_cliente",
+    "label": "En la foto de Evidencia Opcional poner la foto de fachada del cliente",
+    "fuente": "formulario_directo",
+    "tipo_sql": "NVARCHAR(255)",
+    "razon_tipo": "sin datos observados, default conservador"
+  }
+]

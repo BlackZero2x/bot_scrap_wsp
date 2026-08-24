@@ -1,0 +1,21 @@
+{
+  "indicador_brigada": "A_IND_BRIGADA",
+  "codigo_cliente": "customer_number",
+  "nombre_cliente": "cname",
+  "tipo_documento": "XA_DOCUMENTTYPE",
+  "documento_identidad": "XA_CUSTOMER_DOCUMENTID",
+  "empresa_bucket": "A_COMPANY_BK",
+  "ofertas_productos_servicios": "XA_PRODUCT_OFFERS",
+  "dato_direccion": "caddress",
+  "nombre_departamento": "cstate",
+  "fecha_cita": null,
+  "usuario_agendamiento": "XA_USER_AGENDA",
+  "fecha_agendamiento": "2456",
+  "franja_agendamiento": "2457",
+  "coordenada_tecnico_preform": "297",
+  "nombre_persona_recibe": "204",
+  "dni_persona_recibe": "205",
+  "motivo_liquidacion_instalacion": "247",
+  "observaciones_cierre": "372",
+  "franja_postergacion": "747"
+}

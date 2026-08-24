@@ -1,0 +1,51 @@
+.qodo
+.env
+.env.local
+*.xlsx
+*.csv
+*.db
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+credentials.json
+token.json
+
+# Datos extraídos / capturas / registros locales (contienen datos de clientes reales)
+extracciones/
+test_extracciones/
+formularios_descargados/
+cache_toa.db
+users.xlsx
+registro_fe.csv
+fija_data_toa*.xlsx
+logs/
+*.log
+
+# Artefactos de diagnóstico/investigación: contienen datos personales de
+# clientes reales y/o tokens de sesión de TOA. No comitear.
+diagnostico_dom_*.html
+diagnostico_campos_toa.html
+diagnostico_red_toa.json
+diagnostico_red_toa_muestra.json
+diagnostico_request_sync.json
+diagnostico_sync_completo_*.json
+diagnostico_labels_formdata.json
+diagnostico_urls_login.txt
+verificacion_hibrido_resultado.json
+tabla_campos_muestra.json
+mapeo_formdata_labels.json
+mapeo_formularios_directos.json
+mapeo_labels_id_index.json
+mapeo_tecnico_a_label.json
+scripts_db/tabla_data.js
+pruebas_FE_*.txt
+
+# Servidor WhatsApp (Yugi Backoffice) — sesión y dependencias, no comitear.
+whatsapp_server/node_modules/
+whatsapp_server/session_data/
+whatsapp_server/session_data_backup_*/
+whatsapp_server/.wwebjs_cache/
+whatsapp_server/logs/*.log
+whatsapp_server/config.json

@@ -1,0 +1,659 @@
+{
+  "1014": {
+    "form": "F_PRE_INSTALL_COMPLETED_INV",
+    "fuente": "FormData",
+    "label": "Uso cable coaxial en acometida"
+  },
+  "1057": {
+    "form": "XA_ACCESSID_VOZ",
+    "fuente": "formulario_directo",
+    "label": "ID de Acceso Voz para la Activación"
+  },
+  "1060": {
+    "form": "XA_ACCESSID_BAF",
+    "fuente": "formulario_directo",
+    "label": "ID de Acceso BAF para la Activación"
+  },
+  "1067": {
+    "form": "XA_ACCESSID_TV",
+    "fuente": "formulario_directo",
+    "label": "ID de Acceso TV para la Activación"
+  },
+  "1227": {
+    "form": "A_REPEATER_SALE",
+    "fuente": "formulario_directo",
+    "label": "Desea la instalación de repetidor ?"
+  },
+  "1232": {
+    "form": "A_NUMBER_REPEATERS",
+    "fuente": "formulario_directo",
+    "label": "Número de Puntos Adicionales(Cableado)"
+  },
+  "137": {
+    "form": "XA_NUMBER_SERVICE_ORDER",
+    "fuente": "formulario_directo",
+    "label": "Orden de Servicio"
+  },
+  "1600": {
+    "form": "A_ADDITIONAL_POINT",
+    "fuente": "formulario_directo",
+    "label": "Puntos Adicionales(Cableado)"
+  },
+  "1601": {
+    "form": "A_CABLE_01",
+    "fuente": "formulario_directo",
+    "label": "Cableado 01 MTS"
+  },
+  "1602": {
+    "form": "A_CABLE_02",
+    "fuente": "formulario_directo",
+    "label": "Cableado 02 MTS"
+  },
+  "1603": {
+    "form": "A_CABLE_03",
+    "fuente": "formulario_directo",
+    "label": "Cableado 03 MTS"
+  },
+  "1604": {
+    "form": "A_CABLE_04",
+    "fuente": "formulario_directo",
+    "label": "Cableado 04 MTS"
+  },
+  "1605": {
+    "form": "A_CABLE_05",
+    "fuente": "formulario_directo",
+    "label": "Cableado 05 MTS"
+  },
+  "1606": {
+    "form": "A_CABLE_06",
+    "fuente": "formulario_directo",
+    "label": "Cableado 06 MTS"
+  },
+  "1607": {
+    "form": "A_CABLE_07",
+    "fuente": "formulario_directo",
+    "label": "Cableado 07 MTS"
+  },
+  "1628": {
+    "form": "F_SUPPORT_PLANT_101_REA",
+    "fuente": "FormData",
+    "label": "Estado de Soporte de Planta 101"
+  },
+  "1631": {
+    "form": "F_SUPPORT_PLANT_101_REA",
+    "fuente": "FormData",
+    "label": "Número de intentos del soporte de 101"
+  },
+  "1633": {
+    "form": "F_SUPPORT_PLANT_101_REA",
+    "fuente": "FormData",
+    "label": "Observación Soporte de Planta 101"
+  },
+  "1658": {
+    "form": "A_EVIDENCE_02_PIC",
+    "fuente": "formulario_directo",
+    "label": "Foto Evidencia 02"
+  },
+  "1661": {
+    "form": "F_SUPPORT_PLANT_101_REA",
+    "fuente": "FormData",
+    "label": "Sub Motivo de Soporte de Planta 101"
+  },
+  "1684": {
+    "form": "A_PIC_SIGNATURE_DNI",
+    "fuente": "formulario_directo",
+    "label": "Foto realizar Zoom a la Firma y DNI de la boleta firmada por el Cliente"
+  },
+  "1686": {
+    "form": "A_IND_FORM_CONFORMIDAD",
+    "fuente": "formulario_directo",
+    "label": "Indicador Form. Conformidad"
+  },
+  "1962": {
+    "form": "R_AVE_LDR",
+    "fuente": "formulario_directo",
+    "label": "Indicador Recurso Línea de Rescate"
+  },
+  "1985": {
+    "form": "F_PRE_INSTALL_COMPLETED_INV",
+    "fuente": "FormData + formulario_directo",
+    "label": "Foto de Roseta (sin tapa)"
+  },
+  "1986": {
+    "form": "A_PIC_TRIPLEXOR",
+    "fuente": "formulario_directo",
+    "label": "Foto de Triplexor"
+  },
+  "1987": {
+    "form": "F_PRE_INSTALL_COMPLETED_INV",
+    "fuente": "FormData + formulario_directo",
+    "label": "Foto de HGU + Roseta (libre de obstaculos)"
+  },
+  "1988": {
+    "form": "A_PIC_FIRST_SPLITTER",
+    "fuente": "formulario_directo",
+    "label": "Foto de 1er Splitter + Filtro retorno"
+  },
+  "1989": {
+    "form": "A_PIC_MODEM_FIJO",
+    "fuente": "formulario_directo",
+    "label": "Foto de CABLEMODEM (libre de obstáculos)"
+  },
+  "1990": {
+    "form": "A_PIC_HGU_TRIPLEXOR",
+    "fuente": "formulario_directo",
+    "label": "Foto de HGU + Triplexor (libre de obstáculos)"
+  },
+  "204": {
+    "form": "F_PRE_INSTALL_COMPLETED_INV",
+    "fuente": "FormData + formulario_directo",
+    "label": "Nombre Persona que Recibe"
+  },
+  "205": {
+    "form": "F_PRE_INSTALL_COMPLETED_INV",
+    "fuente": "FormData + formulario_directo",
+    "label": "DNI Persona que Recibe"
+  },
+  "214": {
+    "form": "A_SUSPEND_REASON",
+    "fuente": "formulario_directo",
+    "label": "Motivo de suspensión"
+  },
+  "225": {
+    "form": "XA_CABLE_PIC",
+    "fuente": "formulario_directo",
+    "label": "Boleta de Reparación"
+  },
+  "234": {
+    "form": "XA_REQUIREMENT_NUMBER",
+    "fuente": "formulario_directo",
+    "label": "Código de Requerimiento"
+  },
+  "2372": {
+    "form": "A_MANAGEMENT_NOT_DONE",
+    "fuente": "formulario_directo",
+    "label": "Gestion"
+  },
+  "238": {
+    "form": "F_PRE_INSTALL_COMPLETED_INV",
+    "fuente": "FormData + formulario_directo",
+    "label": "Fotografía Boleta de Cierre"
+  },
+  "239": {
+    "form": "XA_DONE_PIC_ADD_1",
+    "fuente": "formulario_directo",
+    "label": "Fotofragía adicional 1"
+  },
+  "240": {
+    "form": "XA_DONE_PIC_ADD_2",
+    "fuente": "formulario_directo",
+    "label": "Fotografía adicional 2"
+  },
+  "241": {
+    "form": "XA_DONE_PIC_ADD_3",
+    "fuente": "formulario_directo",
+    "label": "Fotografía adicional 3"
+  },
+  "242": {
+    "form": "XA_DONE_PIC_ADD_4",
+    "fuente": "formulario_directo",
+    "label": "Fotografía adicional 4"
+  },
+  "243": {
+    "form": "XA_DONE_PIC_ADD_5",
+    "fuente": "formulario_directo",
+    "label": "Fotografía adicional 5"
+  },
+  "244": {
+    "form": "XA_DONE_PIC_ADD_6",
+    "fuente": "formulario_directo",
+    "label": "Fotografía adicional 6"
+  },
+  "245": {
+    "form": "XA_DONE_PIC_ADD_7",
+    "fuente": "formulario_directo",
+    "label": "Fotografía adicional 7"
+  },
+  "247": {
+    "form": "F_PRE_INSTALL_COMPLETED_INV",
+    "fuente": "FormData",
+    "label": "Motivo liquidación instalación"
+  },
+  "2482": {
+    "form": "A_CONTACT_PHONE_NUMBER_01",
+    "fuente": "formulario_directo",
+    "label": "Teléfono Contacto 01"
+  },
+  "2483": {
+    "form": "A_CONEX_DECO_01",
+    "fuente": "formulario_directo",
+    "label": "Conexion Deco 01"
+  },
+  "2484": {
+    "form": "A_CONEX_DECO_02",
+    "fuente": "formulario_directo",
+    "label": "Conexion Deco 02"
+  },
+  "2485": {
+    "form": "A_CONEX_DECO_03",
+    "fuente": "formulario_directo",
+    "label": "Conexion Deco 03"
+  },
+  "2486": {
+    "form": "A_CONEX_DECO_04",
+    "fuente": "formulario_directo",
+    "label": "Conexion Deco 04"
+  },
+  "2488": {
+    "form": "A_DONE_PIC_MODEM",
+    "fuente": "formulario_directo",
+    "label": "Foto de equipo modem"
+  },
+  "249": {
+    "form": "A_NOT_DONE_REASON_REPAIR",
+    "fuente": "formulario_directo",
+    "label": "Motivo Quiebre"
+  },
+  "250": {
+    "form": "A_COMPLETE_CAUSA_REP_ADSL",
+    "fuente": "formulario_directo",
+    "label": "Causa completado reparación y preventivo ADSL"
+  },
+  "2507": {
+    "form": "A_SCENERY",
+    "fuente": "formulario_directo",
+    "label": "Escenarios"
+  },
+  "2508": {
+    "form": "A_REAL_ADDRESS",
+    "fuente": "formulario_directo",
+    "label": "Dirección real"
+  },
+  "2509": {
+    "form": "A_WRONG_ADDRESS",
+    "fuente": "formulario_directo",
+    "label": "Direccion errada\\/incompleta"
+  },
+  "251": {
+    "form": "A_COMPLETE_REP_ADSL",
+    "fuente": "formulario_directo",
+    "label": "Código completado reparación y preventivo ADSL"
+  },
+  "252": {
+    "form": "A_COMPLETE_REP_CBL",
+    "fuente": "formulario_directo",
+    "label": "Código completado reparación y preventivo Cable"
+  },
+  "254": {
+    "form": "A_COMPLETE_REP_STB",
+    "fuente": "formulario_directo",
+    "label": "Código completado reparación y preventivo STB"
+  },
+  "256": {
+    "form": "A_COMPLETE_CAUSA_REP_STB",
+    "fuente": "formulario_directo",
+    "label": "Causa completado reparación y preventivo STB"
+  },
+  "257": {
+    "form": "A_COMPLETE_CAUSA_REP_CBL",
+    "fuente": "formulario_directo",
+    "label": "Causa completado reparación y preventivo Cable"
+  },
+  "2584": {
+    "form": "F_CENSO",
+    "fuente": "FormData",
+    "label": "¿Existe cobertura de Fibra en la zona?"
+  },
+  "2585": {
+    "form": "F_CENSO",
+    "fuente": "FormData",
+    "label": "Tipo de Vivienda"
+  },
+  "2586": {
+    "form": "F_CENSO",
+    "fuente": "FormData",
+    "label": "Actualización de Dirección"
+  },
+  "2588": {
+    "form": "F_CENSO",
+    "fuente": "FormData",
+    "label": "Numeración"
+  },
+  "2609": {
+    "form": "F_CENSO",
+    "fuente": "FormData",
+    "label": "Indicador Form. Evalua Migra"
+  },
+  "2610": {
+    "form": "A_CLI_MIG",
+    "fuente": "formulario_directo",
+    "label": "Cliente desea Migrar"
+  },
+  "2611": {
+    "form": "A_CONTACT_INFO_01",
+    "fuente": "formulario_directo",
+    "label": "Datos de Contacto 1"
+  },
+  "2612": {
+    "form": "A_CONTACT_INFO_02",
+    "fuente": "formulario_directo",
+    "label": "Datos de Contacto 2"
+  },
+  "2613": {
+    "form": "A_SCH_RECO",
+    "fuente": "formulario_directo",
+    "label": "Recomendación de Agenda"
+  },
+  "2614": {
+    "form": "A_NOT_MIG_REASON",
+    "fuente": "formulario_directo",
+    "label": "Motivo porque no dese migrar"
+  },
+  "2615": {
+    "form": "A_CLI_REF",
+    "fuente": "formulario_directo",
+    "label": "Cliente referidos para migración"
+  },
+  "2616": {
+    "form": "A_OBS_CLI_MIG",
+    "fuente": "formulario_directo",
+    "label": "Observacion cliente desea Migrar"
+  },
+  "2749": {
+    "form": "A_PIC_FIRST_SPLITTER_CARGAF",
+    "fuente": "formulario_directo",
+    "label": "Foto de 1er Splitter + Filtro retorno + Carga F"
+  },
+  "2750": {
+    "form": "A_PIC_EVIDENCE_SC",
+    "fuente": "formulario_directo",
+    "label": "Foto evidencia"
+  },
+  "2796": {
+    "form": "A_PIC_CUSTOMER_INEFFECTIVE_REPAIR",
+    "fuente": "formulario_directo",
+    "label": "Foto de domicilio del cliente"
+  },
+  "2852": {
+    "form": "A_PIC_FACHADA_DOMICILIO",
+    "fuente": "formulario_directo",
+    "label": "Foto de fachada domicilio cliente"
+  },
+  "289": {
+    "form": "A_NOT_DONE_AREA",
+    "fuente": "formulario_directo",
+    "label": "Área no realizado"
+  },
+  "297": {
+    "form": "F_COORDINATE_CAPTURE",
+    "fuente": "FormData + formulario_directo",
+    "label": "Captura de Coordenadas"
+  },
+  "309": {
+    "form": "XA_PETICION",
+    "fuente": "formulario_directo",
+    "label": "Código de Petición"
+  },
+  "368": {
+    "form": "XA_NUMBER_WORK_ORDER",
+    "fuente": "formulario_directo",
+    "label": "Orden trabajo"
+  },
+  "372": {
+    "form": "F_PRE_INSTALL_COMPLETED_INV",
+    "fuente": "FormData + formulario_directo",
+    "label": "Observaciones en TOA"
+  },
+  "387": {
+    "form": "F_SUPPORT_PLANT_101_REA",
+    "fuente": "FormData",
+    "label": "Ingresar su Celular"
+  },
+  "3957": {
+    "form": "A_PIC_MEDICION_CTO",
+    "fuente": "formulario_directo",
+    "label": "Medicion CTO"
+  },
+  "515": {
+    "form": "A_SURVEY_03_ANS_01_COMM",
+    "fuente": "formulario_directo",
+    "label": "Observación Cobre"
+  },
+  "570": {
+    "form": "XA_CONTACT_PHONE_NUMBER_5",
+    "fuente": "formulario_directo",
+    "label": "Teléfono de Contacto"
+  },
+  "601": {
+    "form": "A_XY_STARTED",
+    "fuente": "formulario_directo",
+    "label": "Foto Casa del Cliente"
+  },
+  "747": {
+    "form": "A_POST_SLOT",
+    "fuente": "formulario_directo",
+    "label": "Franja Postergación"
+  },
+  "758": {
+    "form": "A_XY_PNDONE",
+    "fuente": "formulario_directo",
+    "label": "Foto Numero de Casa del Cliente"
+  },
+  "837": {
+    "form": "F_COORDINATE_CAPTURE",
+    "fuente": "FormData + formulario_directo",
+    "label": "Flujo Técnico No Confiable"
+  },
+  "849": {
+    "form": "F_PRE_INSTALL_COMPLETED_INV",
+    "fuente": "FormData",
+    "label": "Actualización de Dirección"
+  },
+  "850": {
+    "form": "A_NOT_DONE_TYPE_REPAIR",
+    "fuente": "formulario_directo",
+    "label": "Tipo de Devolución Reparación"
+  },
+  "851": {
+    "form": "A_SUSPEND_SUB_REASON",
+    "fuente": "formulario_directo",
+    "label": "Sub Motivo de Suspensión"
+  },
+  "943": {
+    "form": "F_PRE_INSTALL_COMPLETED_INV",
+    "fuente": "FormData + formulario_directo",
+    "label": "Inhabilitar Inventario"
+  },
+  "954": {
+    "form": "A_PIC_PAR_01",
+    "fuente": "formulario_directo",
+    "label": "Foto Obligatoria 01"
+  },
+  "955": {
+    "form": "A_PIC_PAR_02",
+    "fuente": "formulario_directo",
+    "label": "Foto Adicional 01"
+  },
+  "A_COMPANY_BK": {
+    "fuente": "DOM",
+    "label": "Empresa del Bucket"
+  },
+  "A_IND_BRIGADA": {
+    "fuente": "DOM",
+    "label": "Indicador de Brigada"
+  },
+  "A_POST_DATE": {
+    "form": "A_POST_DATE",
+    "fuente": "formulario_directo",
+    "label": "Postponement Date:"
+  },
+  "A_REGISTRATION_DATE": {
+    "fuente": "DOM",
+    "label": "Fecha Registro de Actividad en TOA"
+  },
+  "XA_CANCEL_REASON": {
+    "fuente": "DOM",
+    "label": "Código Cierre Cancelada"
+  },
+  "XA_CHANNEL_ORIGIN": {
+    "fuente": "DOM",
+    "label": "Canal de Origen"
+  },
+  "XA_CUSTOMER_DOCUMENTID": {
+    "fuente": "DOM",
+    "label": "Documento de Identidad"
+  },
+  "XA_CUSTOMER_TYPE": {
+    "fuente": "DOM",
+    "label": "• Tipo de cliente"
+  },
+  "XA_DISTRICT_NAME": {
+    "fuente": "DOM",
+    "label": "• Nombre Distrito"
+  },
+  "XA_DOCUMENTTYPE": {
+    "fuente": "DOM",
+    "label": "Tipo de documento"
+  },
+  "XA_FECHA_AGENDA": {
+    "fuente": "DOM",
+    "label": "Fecha de agendamiento"
+  },
+  "XA_LINE_ID": {
+    "fuente": "DOM",
+    "label": "LineId"
+  },
+  "XA_PANGEA": {
+    "fuente": "DOM",
+    "label": "Orden Pangea"
+  },
+  "XA_PRIORITY": {
+    "fuente": "DOM",
+    "label": "• Prioridad"
+  },
+  "XA_PRODUCT_OFFERS": {
+    "fuente": "DOM",
+    "label": "Ofertas de Productos/Servicios"
+  },
+  "XA_SYSTEM_AGENDA": {
+    "fuente": "DOM",
+    "label": "Canal de agendamiento"
+  },
+  "XA_TIMESLOT_AGENDA": {
+    "fuente": "DOM",
+    "label": "Franja de agendamiento"
+  },
+  "XA_USER_AGENDA": {
+    "fuente": "DOM",
+    "label": "Usuario de agendamiento"
+  },
+  "a_tsid": {
+    "fuente": "DOM",
+    "label": "• Franja"
+  },
+  "aid": {
+    "fuente": "DOM",
+    "label": "Número OT"
+  },
+  "appt_number": {
+    "fuente": "DOM + FormData + formulario_directo",
+    "label": "• Work Order"
+  },
+  "atime_of_booking": {
+    "fuente": "DOM",
+    "label": "• Fecha Registro de Legados"
+  },
+  "aworktype": {
+    "fuente": "DOM + FormData + formulario_directo",
+    "label": "• Tipo de Actividad"
+  },
+  "caddress": {
+    "fuente": "DOM",
+    "label": "• Dato Dirección"
+  },
+  "ccity": {
+    "fuente": "DOM",
+    "label": "• Nombre Ciudad"
+  },
+  "cname": {
+    "fuente": "DOM + formulario_directo",
+    "label": "• Nombre Cliente"
+  },
+  "cstate": {
+    "fuente": "DOM",
+    "label": "• Nombre Departamento"
+  },
+  "customer_number": {
+    "fuente": "DOM",
+    "label": "• Código de Cliente"
+  },
+  "date": {
+    "fuente": "DOM",
+    "label": "• Fecha de Cita:"
+  },
+  "end_time": {
+    "form": "F_PRE_INSTALL_COMPLETED_INV",
+    "fuente": "FormData + formulario_directo",
+    "label": "Hora fin"
+  },
+  "step_1": {
+    "form": "step_1",
+    "fuente": "formulario_directo",
+    "label": "Captura de Coordenadas"
+  },
+  "step_2": {
+    "form": "step_2",
+    "fuente": "formulario_directo",
+    "label": "Validar Coordenadas"
+  },
+  "step_3": {
+    "form": "step_3",
+    "fuente": "formulario_directo",
+    "label": "Pre Completado Averías"
+  },
+  "step_4": {
+    "form": "step_4",
+    "fuente": "formulario_directo",
+    "label": "Pre Suspensión Actividad"
+  },
+  "step_5": {
+    "form": "step_5",
+    "fuente": "formulario_directo",
+    "label": "Pre Devolución de  Reparación"
+  },
+  "text#element_19": {
+    "form": "text#element_19",
+    "fuente": "formulario_directo",
+    "label": "\"Técnico,  recuerde que debe contactar al bo de su Contrata\""
+  },
+  "text#element_23": {
+    "form": "F_SUPPORT_PLANT_101_REA",
+    "fuente": "FormData",
+    "label": "\nPor favor déjanos tu nro. celular para llamarte antes de cerrar tu ticket en Soditec"
+  },
+  "text#element_3": {
+    "form": "F_COORDINATE_CAPTURE",
+    "fuente": "FormData + formulario_directo",
+    "label": "¿Desea Validar sus Coordenadas ?"
+  },
+  "text#element_41": {
+    "form": "text#element_41",
+    "fuente": "formulario_directo",
+    "label": "IPTV"
+  },
+  "text#element_7": {
+    "form": "F_CENSO",
+    "fuente": "FormData",
+    "label": "Ingresar Dirección completa y referencia"
+  },
+  "text#m9tenhgy_d62f1452": {
+    "form": "text#m9tenhgy_d62f1452",
+    "fuente": "formulario_directo",
+    "label": "En la foto de Evidencia poner la Foto de Parametros TV"
+  },
+  "text#m9tepzc6_881581db": {
+    "form": "text#m9tepzc6_881581db",
+    "fuente": "formulario_directo",
+    "label": "En la foto de Evidencia Opcional poner la foto de fachada del cliente"
+  }
+}
