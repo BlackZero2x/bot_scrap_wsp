@@ -12,6 +12,10 @@ htmlcov/
 credentials.json
 token.json
 
+# Documentación técnica interna: contiene nombres reales de sistemas/clientes
+# y detalles de arquitectura no destinados a un repositorio público.
+CLAUDE.md
+
 # Datos extraídos / capturas / registros locales (contienen datos de clientes reales)
 extracciones/
 test_extracciones/

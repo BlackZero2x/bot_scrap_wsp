@@ -2,28 +2,28 @@
 
 *[English version](./README.en.md)*
 
-Automatización de extracción de datos del portal TOA (Oracle Field Service, `telefonica-pe.etadirect.com`) hacia SQL Server, con un bot de WhatsApp ("Yugi Backoffice") que permite a vendedores consultar el estado de una FE en tiempo real.
+Automatización de extracción de datos de la web de consulta de ventas del cliente hacia SQL Server, con un agente de Python de backoffice que permite a vendedores consultar el estado de un código de venta en tiempo real vía WhatsApp.
 
 ## Componentes principales
 
 | Componente | Descripción |
 |---|---|
-| `scrapper.py` | Bot principal (Selenium): login en TOA, búsqueda de FEs pendientes y extracción de ~35 campos por pantalla hacia `pbi2.fija_data_toa`. |
-| `toa_client.py` | Cliente híbrido (Playwright + HTTP directo) al endpoint interno de sync de TOA — en validación como reemplazo del scraping por DOM. |
-| `query_fe_filter.py` | Resuelve la lista de FEs pendientes de procesar (VENTORY Postgres + eAuren, con delta contra `pbi2.fija_data_toa`). |
-| `whatsapp_server/` | Bot de WhatsApp "Yugi Backoffice" — responde `/estado FE-XXXXXXXXXX` en grupos de zonal. |
-| `consultar_estado_fe.py` | Cascada de solo lectura que resuelve el estado de una FE: VENTORY → eAuren → caché local TOA → búsqueda puntual. |
-| `toa_servicio_busqueda.py` | Servicio HTTP con sesión TOA persistente, consumido por el listener de WhatsApp para búsquedas puntuales. |
-| `mantenimiento_continuo.py` | Descubre FEs nuevos y re-verifica estados transitorios cada 15 min. |
+| `scrapper.py` | Bot principal (Selenium): login en la web de consulta, búsqueda de códigos de venta pendientes y extracción de ~35 campos por pantalla hacia SQL Server. |
+| `toa_client.py` | Cliente híbrido (Playwright + HTTP directo) al endpoint interno de sincronización de la web de consulta — en validación como reemplazo del scraping por DOM. |
+| `query_fe_filter.py` | Resuelve la lista de códigos de venta pendientes de procesar (App de registro de ventas + base de datos legado, con delta contra la tabla destino). |
+| `whatsapp_server/` | Agente Python de backoffice — responde `/estado <código>` en grupos de WhatsApp. |
+| `consultar_estado_fe.py` | Cascada de solo lectura que resuelve el estado de un código de venta: App de registro de ventas → base de datos legado → caché local → búsqueda puntual. |
+| `toa_servicio_busqueda.py` | Servicio HTTP con sesión persistente contra la web de consulta, usado por el agente de WhatsApp para búsquedas puntuales. |
+| `mantenimiento_continuo.py` | Descubre códigos de venta nuevos y re-verifica estados transitorios cada 15 min. |
 
-La arquitectura completa, el flujo de cada módulo y las decisiones de diseño están documentadas en [`CLAUDE.md`](./CLAUDE.md).
+La arquitectura completa, el flujo de cada módulo y las decisiones de diseño están documentadas en un archivo de notas técnicas interno (no versionado).
 
 ## Requisitos
 
 - Python 3.10+
 - Node.js (para `whatsapp_server/`)
 - **ODBC Driver 17 for SQL Server**
-- Acceso a SQL Server (`eAuren`, `pbi2`), Postgres (VENTORY) y al portal TOA
+- Acceso a SQL Server, Postgres (App de registro de ventas) y a la web de consulta de ventas del cliente
 
 ## Instalación
 
@@ -41,7 +41,7 @@ Copiar `.env.example` a `.env` y completar las credenciales reales (nunca se com
 cp .env.example .env
 ```
 
-Para el bot de WhatsApp, copiar también:
+Para el agente de WhatsApp, copiar también:
 
 ```bash
 cp whatsapp_server/config.json.example whatsapp_server/config.json
@@ -50,29 +50,27 @@ cp whatsapp_server/config.json.example whatsapp_server/config.json
 ## Uso
 
 ```bash
-# Bot principal de extracción TOA → SQL Server
+# Bot principal de extracción → SQL Server
 python scrapper.py
 
 # Probar el cliente híbrido de forma aislada
-python toa_client.py FE-1128653298
+python toa_client.py CODIGO-EJEMPLO
 
-# Consultar FEs pendientes
+# Consultar códigos de venta pendientes
 python query_fe_filter.py
 
-# Bot de WhatsApp "Yugi Backoffice"
+# Agente Python de backoffice (WhatsApp)
 cd whatsapp_server && node wa_toa_server.js
 
 # Probar la cascada de estado sin WhatsApp
-python consultar_estado_fe.py FE-1128653298
+python consultar_estado_fe.py CODIGO-EJEMPLO
 
-# Servicio HTTP de búsqueda puntual en TOA (puerto 8004)
+# Servicio HTTP de búsqueda puntual (puerto 8004)
 python toa_servicio_busqueda.py --http
 
-# Descubrimiento de FEs nuevos + re-verificación de transitorios
+# Descubrimiento de códigos nuevos + re-verificación de transitorios
 python mantenimiento_continuo.py
 ```
-
-Ver [`CLAUDE.md`](./CLAUDE.md) para el resto de comandos, la ventana laboral del bot, y el detalle de cada base de datos y módulo.
 
 ## Seguridad
 
