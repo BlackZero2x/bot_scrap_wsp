@@ -1,5 +1,7 @@
 # au_tl_bot
 
+*[English version](./README.en.md)*
+
 Automatización de extracción de datos del portal TOA (Oracle Field Service, `telefonica-pe.etadirect.com`) hacia SQL Server, con un bot de WhatsApp ("Yugi Backoffice") que permite a vendedores consultar el estado de una FE en tiempo real.
 
 ## Componentes principales
